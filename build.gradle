@@ -2,6 +2,7 @@ buildscript {
     repositories {
         jcenter()
         google()
+        maven { url "https://repo.grails.org/grails/core/" }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.2.1'
@@ -14,6 +15,7 @@ allprojects {
     repositories {
         jcenter()
         google()
+        maven { url "https://repo.grails.org/grails/core/" }
     }
 }
 
